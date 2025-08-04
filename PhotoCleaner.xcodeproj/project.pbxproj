@@ -48,16 +48,6 @@
 			path = PhotoCleaner;
 			sourceTree = "<group>";
 		};
-		C06350352E126D6700A9F82D /* PhotoCleanerTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PhotoCleanerTests;
-			sourceTree = "<group>";
-		};
-		C063503F2E126D6700A9F82D /* PhotoCleanerUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = PhotoCleanerUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				C063501E2E126D6500A9F82D /* PhotoCleaner */,
-				C06350352E126D6700A9F82D /* PhotoCleanerTests */,
-				C063503F2E126D6700A9F82D /* PhotoCleanerUITests */,
 				C063501D2E126D6500A9F82D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				C06350342E126D6700A9F82D /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				C06350352E126D6700A9F82D /* PhotoCleanerTests */,
-			);
 			name = PhotoCleanerTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				C063503E2E126D6700A9F82D /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C063503F2E126D6700A9F82D /* PhotoCleanerUITests */,
 			);
 			name = PhotoCleanerUITests;
 			packageProductDependencies = (
@@ -289,6 +271,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626WB97V93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoCleaner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 626WB97V93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PhotoCleaner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
